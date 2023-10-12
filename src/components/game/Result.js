@@ -58,12 +58,12 @@ class Result extends React.Component{
       <br/><br/><br/>
           <img style={{
             width: 300, height: 300, opacity: 1.0
-          }}src={content.dormimg}/>
+          }}src={content.teamimg}/>
 
-          <h1>{content.dorm}</h1>
+          <h1>{content.team}</h1>
           <h3>감독 : {content.manager}</h3>
-          <p>현역선수 : {content.nowperson}</p>
-          <p>은퇴선수 : {content.reperson}</p>
+          <h4>주장 : {content.captain}</h4>
+          <h4>팬덤명 : {content.famous}</h4>
           <img src={content.uni1} style={{width:300}}/>
           <img src={content.uni2} style={{width:300}}/>
           <br/>
