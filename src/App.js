@@ -12,7 +12,8 @@ const container = {
   height: '100vh',
   display: "flex",
   justifyContent: "center",
-  alignItems: "center"
+  alignItems: "center",
+  backgroundColor: "#F3F5DC"
 }
 
 class App extends React.Component{

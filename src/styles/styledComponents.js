@@ -11,7 +11,7 @@ export const Button = styled.button`
     border-radius: 100px; border: none;
     font-family: 'CookieRun-Regular';
     color: white;
-    background-color: #353535;
+    background-color: #944BF4;
     margin: 20px;
     &:active{
         outline: none;
@@ -29,7 +29,6 @@ export const Title = styled.div`
 `
 
 export const Main = styled.div`
-    width: 600px;
     font-size: 20px;
     font-weight: bold;
 `
@@ -38,5 +37,5 @@ export const Number = styled.div`
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 30px;
-    color: #F15F5F;
+    color: #944BF4;
 `

@@ -54,17 +54,19 @@ class Result extends React.Component{
 
   render(){
     const {content} = this.state // 콘텐츠만 뽑는 구조분해!
-    return <div style={{backgroundImage: content.dormimg}}>
-        <Title style={{color:content.color}}>
-          <h2>당신의 성향은 {this.state.result}</h2><br />
+    return <div>
+      <br/><br/><br/>
           <img style={{
-            width: 200, height: 150, opacity: 0.9
+            width: 300, height: 300, opacity: 1.0
           }}src={content.dormimg}/>
-          <h3>기숙사 : {content.dorm}</h3>
-          <h3>{content.character}</h3>
-          <p>특징 : {content.description}</p>
-          <p>대표적인물 : {content.person}</p>
-        </Title>
+
+          <h1>{content.dorm}</h1>
+          <h3>감독 : {content.manager}</h3>
+          <p>현역선수 : {content.nowperson}</p>
+          <p>은퇴선수 : {content.reperson}</p>
+          <img src={content.uni1} style={{width:300}}/>
+          <img src={content.uni2} style={{width:300}}/>
+          <br/>
         <Button onClick={this.props.goFirst}
         style={{backgroundColor: content.color}}>다시하기</Button>
     </div>

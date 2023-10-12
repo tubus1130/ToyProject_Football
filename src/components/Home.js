@@ -17,7 +17,7 @@ class Home extends React.Component{
     return <div style={homeContainer}>
         <Title>프리미어리그 BIG6</Title>
         <p style={{color: "#F15F5F"}}>나에게 맞는 팀은?</p>
-        <img src={("https://static.wippy.io/r/mbti_web/web_intro.gif")}/>
+        <img src={("images/main.gif")}/>
         <br />
         <Button onClick={this.props.goTest}>시작하기</Button>
         <p>MADE BY DH</p>

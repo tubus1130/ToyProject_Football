@@ -7,12 +7,16 @@ import {Button, Main, Number} from '../../styles/styledComponents'
 // 문제가 모여있는 배열을 여기에 가져와서 쓴다!
 import {questionContent} from '../../utils/questionContent'
 
+
+
 class Question extends React.Component{
   constructor(props){
     super(props)
   }
   render(){
     return <div>
+      
+      <img src={questionContent[this.props.count].image}/>
         <Number>
             {this.props.count + 1}번 문제
         </Number>
