@@ -17,21 +17,21 @@ export const questionContent = [
         number: 2,
         question: "한국인이 뛰었거나 뛰고있는 팀이 좋다",
         answer1: "여윽시 국뽕이지",
-        answer2: "국뽕팀 ㄴㄴ",
+        answer2: "국뽕팀 별로야",
         image: "images/manutd.gif"
     },
     {
         number: 3,
         question: "연고지 어디가 좋아?",
         answer1: "런던!",
-        answer2: "시골",
+        answer2: "수도는 너무 평범해..",
         image: "images/arsenal.gif"
     },
     {
         number: 4,
         question: "돈 많이쓰는 구단주가 좋아?",
         answer1: "오일머니 굿",
-        answer2: "근본 X",
+        answer2: "축구는 돈으로 하는게 아니야",
         image: "images/liverpool.gif"
     },
     {
@@ -43,23 +43,16 @@ export const questionContent = [
     },
     {
         number: 6,
-        question: "감독이 대머리",
-        answer1: "내친구 머머리",
-        answer2: "극혐 옮을거같아",
+        question: "감독이 대머리 어때?",
+        answer1: "귀엽넹 머머리",
+        answer2: "극혐,,,, 나도빠질거같아",
         image: "images/manutd.gif"
     },
     {
         number: 7,
-        question: "동물좋아해?",
-        answer1: "ㅇㅇ",
-        answer2: "ㄴㄴ",
+        question: "동물 좋아해?",
+        answer1: "YES",
+        answer2: "NO",
         image: "images/arsenal.gif"
-    },
-    {
-        number: 8,
-        question: "친구와 여행을 가기로 하고, 여행 계획은 내가 짜기로 했다면?",
-        answer1: "사전에 꼼꼼하게 계획을 세운다",
-        answer2: "중요한 것만 미리 정해놓고 나머지는 가서 생각한다",
-        image: "images/liverpool.gif"
-    },
+    }
 ]
